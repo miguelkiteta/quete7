@@ -1,0 +1,161 @@
+ /*
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}*/
+body{
+    background-image: url(../images/reactopia.png);
+    background-repeat: no-repeat;
+    background-color: rgb(208, 234, 241);
+}
+.ul{
+    list-style-type: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+}
+.valeur30,.valeur32,.valeur35,.valeur36{
+    color:#8e5205e5;
+    width: 50px;
+    transform: translate(800px,0);
+    text-align: right;
+}
+.valeur12,.valeur11,.valeur18,.valeur13{
+    color:rgb(51, 113, 4);
+    width: 50px;
+    transform: translate(800px,0);
+    transition-duration: 1ms;
+}
+.valeur18,.valeur19,.valeur17,.valeur15{
+    color: red;
+    width: 50px;
+    transform: translate(800px,0);
+}
+.valeur50,.valeur62,.valeur52,.valeur70{
+    color: rgb(51, 0, 255);
+    width: 50px;
+    transform: translate(800px,0);
+}
+.valeur30,.valeur32,.valeur35,.valeur36{
+    color:#8e5205e5;
+    width: 50px;
+    transform: translate(800px,0);
+}
+.valeur30,.valeur32,.valeur35,.valeur36{
+    color:rgb(0, 128, 255);
+    width: 50px;
+    transform: translate(800px,0);
+}
+.valeur30,.valeur32,.valeur35,.valeur36{
+    color:rgb(0, 128, 255);
+    width: 50px;
+    transform: translate(800px,0);
+}
+.valeur30,.valeur32,.valeur35,.valeur36{
+    color:rgb(0, 128, 255);
+    width: 50px;
+    transform: translate(800px,0);
+}
+ 
+ 
+
+ 
+ 
+ 
